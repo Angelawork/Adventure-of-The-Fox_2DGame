@@ -629,7 +629,7 @@ MonoBehaviour:
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
-  m_CameraDistance: 8.93
+  m_CameraDistance: 10.48
   m_DeadZoneWidth: 0.16
   m_DeadZoneHeight: 0.13
   m_DeadZoneDepth: 0
@@ -899,7 +899,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.7400005, y: 3.98, z: -8.93}
+  m_LocalPosition: {x: -3.7400007, y: 3.98, z: -10.48}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1259,6 +1259,7 @@ GameObject:
   - component: {fileID: 864354819}
   - component: {fileID: 864354818}
   - component: {fileID: 864354823}
+  - component: {fileID: 864354824}
   m_Layer: 0
   m_Name: Opossum
   m_TagString: Enemy
@@ -1438,6 +1439,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 9cf300895fe02434d9bcec29883fb63c, type: 2}
+--- !u!114 &864354824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864354815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c757ee0759c84c7479bdd3f4df32e1d1, type: 2}
 --- !u!1 &988902056
 GameObject:
   m_ObjectHideFlags: 0
@@ -1746,7 +1763,7 @@ GameObject:
   - component: {fileID: 1281816937}
   m_Layer: 0
   m_Name: Enemy Opossum
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8890,7 +8907,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103075879}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.7400005, y: 3.98, z: -8.93}
+  m_LocalPosition: {x: -3.7400007, y: 3.98, z: -10.48}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
